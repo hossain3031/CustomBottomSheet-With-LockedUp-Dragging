@@ -12,8 +12,8 @@ import android.widget.RelativeLayout;
 public class MainActivity extends AppCompatActivity {
 
     private BottomSheetBehavior<LinearLayout> bottomSheetBehavior;                                  // BottomSheet Instance
-    LinearLayout bottomsheetlayout;
-    String[] list = {"A", "B", "C", "D", "A", "B", "C", "D","A", "B", "C", "D","A", "B", "C", "D","A", "B", "C", "D"};
+    private LinearLayout bottomsheetlayout;
+    private String[] list = {"A", "B", "C", "D", "A", "B", "C", "D","A", "B", "C", "D","A", "B", "C", "D","A", "B", "C", "D"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         bottomSheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
     }
 
-    public void bottomSheetHide(){
+    private void bottomSheetHide(){
         bottomSheetBehavior.setHideable(true);
         bottomSheetBehavior.setState(BottomSheetBehavior.STATE_HIDDEN);
     }

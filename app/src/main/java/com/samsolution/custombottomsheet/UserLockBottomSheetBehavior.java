@@ -27,7 +27,7 @@ public class UserLockBottomSheetBehavior<V extends View> extends BottomSheetBeha
         return false;
     }
 
-    @Override
+   /* @Override
     public boolean onStartNestedScroll(CoordinatorLayout coordinatorLayout, V child, View directTargetChild, View target, int nestedScrollAxes) {
         return false;
     }
@@ -38,11 +38,11 @@ public class UserLockBottomSheetBehavior<V extends View> extends BottomSheetBeha
 
     @Override
     public void onStopNestedScroll(CoordinatorLayout coordinatorLayout, V child, View target) {
-    }
+    }*/
 
-    @Override
+    /*@Override
     public boolean onNestedPreFling(CoordinatorLayout coordinatorLayout, V child, View target, float velocityX, float velocityY) {
         return false;
-    }
+    }*/
 
 }
